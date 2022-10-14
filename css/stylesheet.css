@@ -1,0 +1,105 @@
+html{
+    font-size: 100%;
+}
+.rapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+header{
+    display: flex;
+    flex-flow: row nowrap ;
+    margin-bottom: 3rem;
+}
+nav ul{
+    text-align: center;
+    margin: 1rem 0rem;
+    list-style-type:none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: .0625rem;
+    background-color: black;
+    padding-top: 1rem;
+    border-radius: 2rem;
+
+}
+nav li{
+    display: inline-block;
+    margin: 0 1.5rem;
+    margin-bottom: 1rem;
+}
+nav a{
+    color: aliceblue;
+}
+nav a:hover{
+    background-color:antiquewhite;
+    color: black;
+}
+.leftheader{
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: 0.5rem;
+
+}
+.rightheader{
+    flex-basis: 60%;
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Cookie', cursive;
+
+}
+article img{
+    float:left;
+    margin:0 1rem 1rem 0;
+    border:3px solid black;
+    border-radius: 2rem;
+}
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 4rem;
+}
+article h1{
+    font-size: 1.7rem;
+}
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.one{
+    margin-top:0;
+}
+ ul{
+   list-style-type: none; 
+   text-decoration: none;
+   font-size: 2rem;
+
+
+}
+.link li{
+    width: 100%;
+    margin: .25rem;
+    background-color: tomato;
+    text-align: center;
+
+    
+}
+.link a:hover{
+    background-color: black;
+    color:aliceblue;
+
+}
+.after{
+    text-align: center;
+}
+footer{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+
+
+}
